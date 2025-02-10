@@ -1,6 +1,6 @@
 {
   "name": "mp-cf-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI to initialize Firebase project with boilerplate code",
   "main": "dist/index.js",
   "bin": {
