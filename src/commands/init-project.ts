@@ -3,7 +3,7 @@ import * as path from 'path';
 import { runCommand } from "../utils/command-utils";
 import { spawnSync } from 'child_process';
 
-const BOILERPLATE_REPO = "<>";
+const BOILERPLATE_REPO = "https://github.com/deBilla/mp-cf-boilerplate";
 
 export function setupFirebaseProject(projectName: string) {
   console.log(`Cloning boilerplate repository for project: ${projectName}...`);
@@ -19,7 +19,7 @@ export function setupFirebaseProject(projectName: string) {
   }
 
   // Copy the contents from the boilerplate to the functions directory
-  runCommand(`cp -r temp-boilerplate/* ${projectDir}/`);
+  runCommand(`cp -r temp-boilerplate/backend/* ${projectDir}/`);
   runCommand("rm -rf temp-boilerplate");
 
   // Use Firebase CLI to add the project (blocks until user input is complete)
