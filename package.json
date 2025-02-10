@@ -1,0 +1,21 @@
+{
+  "name": "mp-cf-cli",
+  "version": "1.0.0",
+  "description": "A CLI to initialize Firebase project with boilerplate code",
+  "main": "dist/index.js",
+  "bin": {
+    "mp-cf-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "author": "Dimuthu Wickramanayake",
+  "license": "MIT"
+}
