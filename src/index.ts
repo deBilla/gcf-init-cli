@@ -39,7 +39,12 @@ switch (command) {
         }
         break;
       default:
-        break;
+        console.log("Usage: gcf-cli <command> [options]");
+        console.log("Commands:");
+        console.log("  init <project-name>   - Initialize a new Firebase project with boilerplate");
+        console.log("  add module <module-name>     - Add a module to the project");
+        console.log("  add service <service> - Add a Firebase service to the project (e.g., Firestore, Functions)");
+        process.exit(1);
     }
     break;
 
