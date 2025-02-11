@@ -5,7 +5,7 @@ import fs from "fs-extra";
 import path from "path";
 
 const GITHUB_REPO_URL =
-  "https://api.github.com/repos/deBilla/mp-cf-boilerplate/contents/functions/src/modules/sample-module";
+  "https://api.github.com/repos/deBilla/gcf-boilerplate/contents/functions/src/modules/sample-module";
 
 async function fetchFilesFromGitHub(
   url: string,

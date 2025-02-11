@@ -3,7 +3,7 @@ import * as path from 'path';
 import { runCommand } from "../utils/command-utils";
 import { spawnSync } from 'child_process';
 
-const BOILERPLATE_REPO = "https://github.com/deBilla/mp-cf-boilerplate";
+const BOILERPLATE_REPO = "https://github.com/deBilla/gcf-boilerplate";
 
 export function setupFirebaseProject(projectName: string) {
   console.log(`Cloning boilerplate repository for project: ${projectName}...`);
