@@ -1,4 +1,4 @@
-# MP Cloud Functions Init CLI (`mp-cf-cli`)
+# Cloud Functions Init CLI With Boilerplate (`cf-cli`)
 
 A simple CLI tool to initialize a Firebase project with a custom boilerplate, add modules, and add Firebase services.
 
@@ -17,17 +17,40 @@ A simple CLI tool to initialize a Firebase project with a custom boilerplate, ad
 To install the CLI globally, run:
 
 ```bash
-npm install -g mp-cf-cli
+npm install -g cf-cli
 ```
 
 ## 🔧 Usage
 Run the CLI by using the following command:
 
 ```
-mp-cf-cli <command> [options]
+cf-cli <command> [options]
 ```
 
 ## Commands:
+Initialize the project
+
 ```
-mp-cf-cli init <project-name>
+cf-cli init <project-name>
 ```
+
+Go inside the project to functions folder
+
+```
+cd <project-name>/functions
+```
+
+Install dependencies
+
+```
+yarn install
+```
+
+Add a Module
+
+```
+cf-cli add module user
+```
+
+
+

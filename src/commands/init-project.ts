@@ -21,6 +21,7 @@ export function setupFirebaseProject(projectName: string) {
   // Copy the contents from the boilerplate to the functions directory
   runCommand(`cp -r temp-boilerplate/* ${projectDir}/`);
   runCommand("rm -rf temp-boilerplate");
+  runCommand(`rm -rf ${projectDir}/functions/src/modules/sample-module`);
 
   // Use Firebase CLI to add the project (blocks until user input is complete)
   const firebaseProcess = spawnSync('firebase', ['use', '--add'], {
