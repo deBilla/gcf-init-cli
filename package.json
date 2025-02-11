@@ -1,10 +1,10 @@
 {
-  "name": "cf-cli",
+  "name": "gcf-cli",
   "version": "1.0.3",
   "description": "A CLI to initialize Firebase project with boilerplate code",
   "main": "dist/index.js",
   "bin": {
-    "cf-cli": "./dist/index.js"
+    "gcf-cli": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",

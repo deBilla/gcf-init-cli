@@ -1,4 +1,4 @@
-# Cloud Functions Init CLI With Boilerplate (`cf-cli`)
+# Cloud Functions Init CLI With Boilerplate (`gcf-cli`)
 
 A simple CLI tool to initialize a Firebase project with a custom boilerplate, add modules, and add Firebase services.
 
@@ -17,21 +17,21 @@ A simple CLI tool to initialize a Firebase project with a custom boilerplate, ad
 To install the CLI globally, run:
 
 ```bash
-npm install -g cf-cli
+npm install -g gcf-cli
 ```
 
 ## 🔧 Usage
 Run the CLI by using the following command:
 
 ```
-cf-cli <command> [options]
+gcf-cli <command> [options]
 ```
 
 ## Commands:
 Initialize the project
 
 ```
-cf-cli init <project-name>
+gcf-cli init <project-name>
 ```
 
 Go inside the project to functions folder
@@ -49,7 +49,7 @@ yarn install
 Add a Module
 
 ```
-cf-cli add module user
+gcf-cli add module user
 ```
 
 
