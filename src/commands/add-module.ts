@@ -30,7 +30,7 @@ async function fetchFilesFromGitHub(
       } else if (file.type === "file") {
         const fileResponse = await axios.get(file.download_url);
         let updatedContent = fileResponse.data.replace(/SampleModule/g, capitalize(moduleName));
-        updatedContent = fileResponse.data.replace(/sample-module/g, moduleName);
+        updatedContent = updatedContent.replace(/sample-module/g, moduleName);
         
         await fs.writeFile(filePath, updatedContent, "utf8");
         console.log(`Created: ${filePath}`);
