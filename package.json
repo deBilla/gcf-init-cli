@@ -14,6 +14,7 @@
     "yarn": "^1.22.19"
   },
   "devDependencies": {
+    "@types/node": "^22.13.1",
     "typescript": "^4.5.4"
   },
   "author": "Dimuthu Wickramanayake",
