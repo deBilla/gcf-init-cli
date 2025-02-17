@@ -1,6 +1,6 @@
 {
   "name": "gcf-cli",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A CLI to initialize Firebase project with boilerplate code",
   "main": "dist/index.js",
   "bin": {
